@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Inter-SB;
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+*{
+    margin: 0 auto;
+}
+body{
+    width: 480px;
+    background-color: bl;
+}
+a{
+    text-decoration: none;
+    color: palevioletred;
+}
+nav{
+    display:flex; 
+    
+
+    margin-left: 0px;
+}
+
+nav h1{
+    float: left;
+    color: palevioletred;
+}
+
+
+header details{
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+header details ul{
+    position: absolute;
+    right:0%;
+    width: max-content;
+    background-color: rgba(255, 231, 246, 0.594);
+    border-radius: 5px;
+
+}
+header details ul li{
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size:15px;
+    list-style: none;
+    margin-left: -40px;
+    
+
+}
+header details ul li:hover{
+    background-color: rgb(91, 72, 78);
+    
+    
+    
+}
+header details summary{
+    list-style: none;
+}
+header details summary img:hover{
+    transition: 0.3s ease-in;
+}
+/* header details[open] summary{
+    background-color: aquamarine;
+} */
+.hero-image{
+  width: 480px;  
+    
+}
+a{
+    cursor: pointer;
+}
+.hero-image img{
+    height: 150px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 12%;
+    
+
+}
+section{
+    margin-top: 100px;
+}
+.socials{
+    display: flex;
+}
+.OCs{
+    margin-top: 50px;
+    display: flex;
+    font-family: Inter-SB;
+}
+.Homepage{
+    height: 200px;
+    align-content: center;
+}
+.Homepage-btns button{
+    background-color:palevioletred ;
+    border: none;
+    border-radius: 6px;
+    width: 300px;
+    padding: 12px;
+    margin-left:90px;
+    
+    margin-bottom: 15px;
+   
+}
+.Homepage-btns button a{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    
+
+}
+
+.Homepage-btns button:hover{
+    width: 350px;
+    transition: 0.5s ease-in-out;
+    
+}
